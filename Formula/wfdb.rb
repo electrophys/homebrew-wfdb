@@ -1,9 +1,9 @@
 class Wfdb < Formula
   desc "WaveForm Database library and tools for physiologic signals"
   homepage "https://physionet.org/"
-  url "https://github.com/electrophys/wfdb/archive/refs/heads/master.tar.gz"
+  url "https://github.com/electrophys/wfdb/archive/1e7b18059ce44e8d11a02a56a7ebb441aebb3341.tar.gz"
   version "10.7.0"
-  sha256 "620578dec6fd104fa03c6aeea503eebc4e27eae1ee1e949f562f6786426bdc56"
+  sha256 "42c87b0d367a15f45fea2dda778e0ea44feec9e6f79cfc425e7f84292cc8b0a0"
   license "LGPL-2.0-or-later"
 
   depends_on "meson" => :build
